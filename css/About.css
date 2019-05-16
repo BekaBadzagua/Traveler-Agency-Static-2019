@@ -1,0 +1,62 @@
+.info{
+	padding: 80px 0;
+}
+.info img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 540px;
+	height: 360px;
+}
+.info div{
+	display: inline-block;
+	vertical-align: middle;
+	color: #4D4D4D;
+	width: 570px;
+	padding: 0 15px 0 45px;
+}
+.info h1{
+	font-size: 32px;
+	color:#000000;
+	margin:0 0 24px 0;
+
+}
+.info p{
+	font-size: 16px;
+	margin: 0 0 16px 0;
+}
+
+.info li{
+	list-style-type: none;
+	font-size: 16px;
+	color: rgba(0,0,0,0.5);
+}
+.info i{
+	padding-right: 10px;
+	color: #ef6c57;
+}
+
+
+
+.team{
+	padding: 30px 0 80px 0;
+}
+.team div{
+	display: inline-block;
+	width: 370px;
+	max-height: 400px;
+	padding: 0px 15px;
+	overflow: hidden;
+	text-align: center;
+}
+.team img {
+	width: 170px;
+	height: 170px;
+	border-radius: 200px;
+}
+.team h1{
+	text-align: center;
+		margin: 0 0 30px 0;
+}
+.team p{
+	color: rgba(0,0,0,0.5);
+}

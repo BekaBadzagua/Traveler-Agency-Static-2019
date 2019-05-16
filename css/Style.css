@@ -1,0 +1,182 @@
+
+/* Common */
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+p{
+    font-size:16px;
+    color:rgba(0,0,0,0.5);
+}
+a,a:hover,a:visited,a:host,a:active{
+    color:inherit;
+    text-decoration:none;
+}
+
+
+
+ul{
+    margin:0;
+}
+/* COMMON */
+
+.page-content-heading{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/tests/hero_bg_2_short.jpg");
+}
+.page-content-heading h1{
+    padding-top: 250px;
+    font-size: 64px;
+}
+.page-content-heading p{
+    color: #fff;
+    font-size: 16px;
+}
+.page-content-heading a{
+    color: #ef6c57;
+    transition: 0.3s;
+}
+.page-content-heading a:hover{
+    color: #f4543a
+}
+.page-content-heading span{
+    padding: 0 10px;
+}
+
+
+/* Common Classes */
+.clearfix{
+    overflow:auto;
+}
+.right{
+    float:right;
+}
+.left{
+     float:left;
+}
+.centered{
+    text-align: center;
+}
+.pagination{
+    font-size: 20px;
+}
+.light-red {
+    color: #ef6c57 !important;
+}
+.silver{
+    color:#4D4D4D;
+    font-style:italic;
+}
+.icon-small{
+    font-size:15px
+}
+.no-decoration{
+    text-decoration: none !important;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.no-img{
+    background-image: none;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+/* Input - Styles */
+
+
+.input-container{
+    margin-bottom: 20px;
+}
+.input-container label{
+    font-size: 16px;
+    font-weight: 100;
+    color: #000000;
+    margin:0 0 8px 0;
+}
+
+.input-container input{
+    width: 100%;
+    height: 43px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+}
+.input-container textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+}
+
+.input-container input[type="date"]{
+    width: 200px;
+    height: auto;
+}
+.input-container input[type="radio"]{
+    width: auto;
+    height: auto;
+    display: inline-block;
+
+}
+.radio-div{
+    display: inline-block;
+    padding: 0 40px 0 0;
+    font-size: 16px;
+}
+
+
+.input-container input[type="submit"]{
+    width: 200px;
+    height: 45px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #ef6c57;
+    border: 2px solid #ef6c57;
+    transition: 0.3s;
+}
+.input-container input[type="submit"]:hover{
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #000000;
+}
+
+
+/* My Buttons */
+.button-red {
+    color: #ef6c57;
+    font-size: 16px;
+    padding: 16px 48px;
+    background-color: inherit;
+    border: 2px solid #ef6c57;
+    transition: 0.3s;
+}
+.button-red:hover{
+    color: #fff;
+    background-color: #ef6c57;
+}
+.button-red2 {
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 48px;
+    background-color: #ef6c57;
+    border: 2px solid #ef6c57;
+    transition: 0.3s;
+}
+.button-red2:hover {
+    color: #000000;
+    background-color: #fff;
+    border: 2px solid #000000;
+}
+

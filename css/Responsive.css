@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*  GRID OF TWELVE  */
+.col-12 {width: 100%;}
+.col-11 {width: 91.66%;}
+.col-10 {width: 83.33%;}
+.col-9 {width: 75%;}
+.col-8 {width: 66.66%;}
+.col-7 {width: 58.33%;}
+.col-6 {width: 50%;}
+.col-5 {width: 41.66%;}
+.col-4 {width: 33.33%;}
+.col-3 {width: 25%;}
+.col-2 {width: 16.66%;}
+.col-1 {width: 8.333%;}
+
+[class*="col-"]{
+    float: left;
+    padding: 20px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media only screen and (max-width:1249px){
+
+     .main-nav,.container-center,.filtration-cont,.contact-info-wrapper,.contact-form-wrapper{
+        width: 100%;
+     }
+     #logo{
+        width: 20%;
+    }
+     .nav-list{
+         padding: 0;
+         width:430px ;
+     }
+     .nav{
+         padding: 0;
+         width: 79%;
+         text-align: center;
+     }
+     .nav-icon-list{
+         padding: 0;
+         margin: 0;
+     }
+     .big-img{
+        width:40%;
+        padding: 0;
+        margin: 20px 10px;
+        max-height: auto;
+     }
+     .big-img img{
+        width:100%;
+        height: auto;
+     }
+     .big-img div{
+        width: 100%;
+        height: auto;
+     }
+     .big-img h3{
+        font-size: 20px;
+     }
+     .big-img h3:hover{
+        padding-top: 400px !important;
+     }
+
+     footer{
+         padding: 0;
+     }
+    .footer-row1 div{
+        width: 45%;
+    }
+
+     .footer-row1 div:last-child{
+         display: none
+     }
+
+
+     .commertials{
+         display: none;
+     }
+     .testemonials{
+         margin-top: 0;
+     }
+     .testemonial-img{
+        left:150px;
+     }
+     .testemonial-text{
+         right: 50px;
+     }
+     .places .place-cont div.medium-img:last-child{
+         display: none;
+     }
+     .blog .container-center{
+         text-align: center;
+     }
+     .blog .container-center div:nth-child(3){
+        display: none;
+    }
+
+
+    .info{
+        text-align: center;
+    }
+    .info h1{
+        margin-top: 20px;
+    }
+
+    .mini-map{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width:799px){
+
+    .nav{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .nav-list{width: 100%;}
+    .nav-icon-list{
+        float:none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #logo{width: 100%;text-align: center;}
+    .nav-icon-list li{padding: 0 15px;}
+
+    .slider{ height: auto;}
+    .slider-content{height: 200px;}
+    .slider-content h1{font-size: 16px;}
+    .slider-content p{font-size: 10px;}
+    .mySlides img{width: 100%;height: 200px;}
+    .slider-btn-cont{top:70px;}
+    .slider-btn{font-size: 10px;}
+
+    .testemonials{display: none;}
+
+    .places{text-align: center;}
+    .medium-img{padding: 0px}
+    .medium-img img{ width: 150px;height: auto;}
+    .medium-img div{ width: auto;height: auto;}
+    .medium-img h3{width: 150px;font-size: 14px;}
+
+    .big-img{width:200px;padding: 0px}
+    .big-img img{ width: 100%;height: auto;}
+    .big-img div{ width: auto;height: auto;}
+    .big-img span{padding: 10px;}
+    .big-img h3{width: 200px;}
+
+    .Tours {text-align: center;}
+    .Tours  span{display: none;}
+    .Tours h3{width: 150px;}
+
+    .video{display: none;}
+    .services .container-center div:nth-child(7),.services .container-center div:nth-child(6),.services .container-center div:nth-child(5){
+        display: none;
+    }
+   .footer-row1{display: none;}
+
+
+    .filtration-cont form{font-size: 14px}
+    .withPrice {font-size: 10px;}
+
+    .info div{
+        width: 100%;
+    }
+    .info img{
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .mini-blog{
+        width: 100%;
+        padding: 30px;
+        margin: 0;
+    }
+    .mini-blog img{
+        width: 100%;
+        height: auto;
+    }
+    .contact-info-wrapper{margin: 0;}
+}

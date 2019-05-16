@@ -1,0 +1,280 @@
+/* მთავარი გვერდი */
+.main-wrapper{
+    width: 80%;
+    margin:auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #bd6c0d;
+    border-radius: 15px !important;
+}
+.main-wrapper a{
+    color:#ffbf28;
+    text-decoration: none;
+}
+.main-wrapper a:hover{
+    color:#ef6500;
+    transition: 0.3s;
+}
+.main-wrapper div{
+    width:35%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    background-color:#2b3643;
+    border:2px solid black;
+    border-radius: 15px !important;
+    transition: 0.3s;
+}
+.main-wrapper div:hover{
+    /* border:2px solid wheat; */
+    border:2px solid #3ce5ac;
+    background-color:#384a61;
+}
+.main-wrapper div i{
+    font-size: 150px;
+    margin-top: 85px;
+}
+.main-wrapper div h4{
+    margin: 20px;
+}
+/* მთავარი გვერდი */
+
+/* სლაიდერი */
+/* სლაიდერი */
+
+
+
+
+/* პროდუქცია */
+.selection-form{
+    margin:30px;
+    float: right;
+}
+
+/* პროდუქცია */
+
+
+
+/* კატეგორიები */
+
+/* კატეგორიები */
+
+
+
+/* კონტაქტი */
+.maps-wrapper{
+    width: 90%;
+    min-width: 300px;
+    margin: 30px auto 50px auto;
+    text-align: center;
+}
+
+.contact{
+    width: 45%;;
+    display: inline-block;
+    margin: auto 20px 100px 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: left;
+    background-color: #e2f4f5;
+    border:1px solid #9a9a9a;
+    border-radius: 20px !important; 
+}
+.contact h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact h4{
+    margin:20px 0 15px 0;
+}
+.contact div:last-child{
+    margin-top:30px;
+}
+.map-container{
+    width:100%;
+    overflow: hidden;
+}
+/* კონტაქტი */
+
+
+
+/* ვაკანსიები */
+.vacancy-container{
+    width:60%;
+    min-width: 300px;
+    padding: 20px 5% 40px 5%;
+    margin: 20px auto 20px auto;
+    background-color:#f1f0e6;
+    border:1px solid black;
+    border-radius: 15px !important;
+}
+.vacancy-container h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.vacancy-container h4{
+    font-weight: bold;
+}
+.icons-container p i{
+    margin-right: 10px;
+}
+.icons-container p:last-child{
+    float: right;
+}
+.vacancy-container div:last-child{
+    margin-top:50px;
+}
+/* ვაკანსიები */
+
+
+
+/* ინფორმაცია */
+/* ინფორმაცია */
+
+
+
+
+/* ღილაკები */
+.btn{
+    border-radius: 5px !important;
+}
+.btn-warning{
+    background-color:#f8a310;
+}
+.btn-warning:hover{
+    background-color:#e16e10
+}
+.btn-delete{
+    width: 100px;
+}
+.btn-add{
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 10px !important;
+} 
+.btn-med{
+    font-size: 18px;
+}
+
+/* ღილაკები */
+
+
+/* მოდალები */
+.modal-header{
+    background-color:#0a0a53;
+    color: whitesmoke;
+    text-align: center;
+}
+.modal-footer{
+    background-color:#00003e;
+}
+.modal-form{
+    width: 50%;
+    margin: 30px auto 20px auto;
+}
+.modal-form div:last-child{
+    text-align: center;
+}
+.modal-body h3{
+    margin-bottom: 30px;
+}
+.two-forms{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.two-forms div{
+    display: inline-block;
+    width:40%;
+}
+.two-forms div:last-child{
+    float: right;
+}
+/* მოდალები */
+
+
+/* ცხრილები */
+.admin-table-1{
+    font-size: 18px;
+    text-align: center;
+    color:#00122a;
+    border-radius: 15px !important;
+    overflow: hidden;
+    width: 100%;
+}
+.admin-table-1 td{
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.admin-table-1 tr:nth-child(even){
+    background-color: #5479f5
+}
+.admin-table-1 tr:nth-child(odd){
+    background-color:#4de7f5
+}
+.admin-table-1 tr:first-child{
+    background-color: #820b00 !important;
+}
+.admin-table-1 th{
+    color:white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+}
+.admin-table-1 img{
+    max-width: 250px;
+    border:1px solid black;
+    border-radius: 15px !important;
+    background-color: white;
+} 
+
+.table-hover1 tr:hover{
+    background-color: #a8dfe4
+}
+.small-img{
+    width:100px;
+    height: 100px;
+}
+/* ცხრილები */
+
+/* საერთო */
+.form-container{
+    width: 50%;
+    margin: 30px auto 50px auto;
+}
+.form-group label{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.input-med{
+    width: 40%;
+}
+.alert-span{
+    color:red;
+}
+.centered-container{
+    text-align: center;
+    overflow: auto;
+}
+.right{
+    float: right;
+}
+/* საერთო */
+
+/* other */
+.page-content,#page-bar{
+    background-color: #eefbfc;
+}
+#page-bar a, #page-bar i{
+    color: #ab370c;
+}
+#page-bar{
+    margin-top:10px;
+}
+#page-title{
+    text-align: center;
+    margin:10px;
+}
+/* other */
+

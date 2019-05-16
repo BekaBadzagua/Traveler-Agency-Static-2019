@@ -1,0 +1,128 @@
+
+/* Layout */
+
+/*მთავარი ნავიგაცია*/
+.main-nav {
+    width: 1140px;
+    margin: auto;
+}
+
+.nav {
+    margin-top: 12px; /*Font-ის გამო*/
+    padding-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav li {
+    font-size: 16px;
+    padding: 0 0 0 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    color: #000000;
+}
+
+/*ლოგო*/
+#logo {
+    width: 160px;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/*მთავარი განყოფილება*/
+.nav-list {
+    width: 690px;
+    padding: 0 0 0 150px;
+    display: inline-block;
+}
+.nav-list i{
+    padding-right: 4px;
+}
+.nav-list a{
+    transition: 0.2s;
+}
+.nav-list a:hover {
+    color: #ef6c57;
+    text-decoration: none;
+}
+
+.nav-list a.active{
+    color:#ef6c57;
+}
+
+
+/*იკონები*/
+.nav-icon-list {
+    width: 160px;
+    padding: 0 15px;
+    margin-left: 80px;
+}
+
+.nav-icon-list li {
+    padding: 0 16px 0 0;
+}
+
+/*მთავარი ნავიგაცია - End*/
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 128px;
+    color: #ffffff;
+    background-color: #333;
+}
+
+footer a{
+    color: #737373;
+    transition:0.3s;
+}
+footer a:hover{
+    color:#fff;
+}
+
+.footer-row1 div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 30%;
+}
+
+.footer-row1 p {
+    color: #737373;
+}
+
+.footer-row1 div ul {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 10px;
+    width: 40%;
+    list-style-type: none;
+}
+.footer-row1 li{
+    padding:4px 0;
+}
+.footer-row1 a{
+    color:#737373;
+}
+.footer-ul {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer-ul li {
+    display: inline-block;
+    padding: 30px;
+
+}
+/*Footer-End*/

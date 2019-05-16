@@ -1,0 +1,376 @@
+/* Home Page */
+
+.container-center {
+    width: 1140px;
+    margin: auto;
+}
+
+.medium-img {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 10px 0;
+    overflow:hidden;
+}
+
+.medium-img img {
+    width: 350px;
+    height: 400px;
+}
+
+.medium-img div {
+    position: absolute;
+    bottom: 0;
+    width: 350px;
+    height:400px;
+    color: white;
+    overflow:hidden;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)); 
+}
+
+
+.medium-img h3{
+    padding-top:350px;
+    margin:0;
+    width:100%;
+    height:400px;
+    text-align:center;
+    transition:0.5s;
+}
+
+.medium-img h3:hover{
+    padding-top:310px;
+    color:#ff7955;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6)); 
+    cursor: pointer;
+}
+
+.medium-img span{
+    font-size: 14px;
+    padding: 0 25px;
+}
+.medium-img span:first-child{
+    text-decoration: line-through;
+}
+.withPrice{
+    padding-top:330px !important;
+}
+.withPrice:hover{
+    padding-top:290px !important;
+}
+
+.big-img img,.big-img div{
+    width: 540px;
+    height:600px;
+}
+.big-img h3{
+    padding-top:510px !important;
+    height:600px;
+}
+/*სლაიდერი*/
+.slider {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slider-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.slider-content div {
+    max-width: 730px;
+    margin: auto;
+}
+
+.slider-content h1 {
+    color: #fff;
+    font-size: 64px;
+    max-width: 730px;
+    margin-top: 300px;
+}
+
+.slider-content p {
+    color: rgba(255,255,255,0.5);
+    font-size: 19px;
+    max-width: 730px;
+}
+
+.slider-btn-cont{
+    position:absolute;
+    top:350px;
+    width:100%;
+    z-index:100;
+    color:#fff;
+
+}
+.slider-btn {
+    display:inline-block;
+    vertical-align:central;
+    margin: 15px;
+    padding: 15px 20px;
+    font-size: 30px;
+    border-radius:30px;
+    background-color:rgba(0,0,0,0.5);
+    transition:0.4s;
+}
+.slider-btn:hover{
+    color:#00305f;
+    background-color:rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+/*სლაიდერი */
+/* რეკლამა, ბანერი თუ რაღაცა ეგეთი*/
+.commertials {
+    position: absolute;
+    top: 700px;
+    z-index: 50;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.commertials h3:hover{
+    cursor: default;
+}
+
+
+/* მოგზაურთა შეფასებები */
+
+
+
+.testemonials {
+    width: 100%;
+    height: 900px;
+    padding: 80px 0;
+    margin-top: 350px;
+    background: #f8f9fa;
+}
+
+    .testemonials p {
+        font-size: 20px;
+        color: #000000;
+    }
+
+    .testemonials h1 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .testemonials img {
+        width: 525px;
+        height: 600px;
+    }
+
+.tst-parent {
+    margin: 40px 0;
+    position: relative;
+}
+
+.testemonial-img {
+    position: absolute;
+}
+
+.testemonial-text {
+    position: absolute;
+    right: 150px;
+    top: 180px;
+    background-color: #ffffff;
+    width: 555px;
+    padding: 48px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+    .testemonial-text p:last-child {
+        font-size: 16px;
+    }
+
+.testemonial-btns {
+    margin-top: 700px;
+}
+.prev,.next{
+    transition:0.3s;
+    padding:0 5px;
+}
+.prev:hover, .next:hover {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+/* მოგზაურთა შეფასებები -End */
+/* Our Destinations */
+.places {
+    width: 100%;
+    padding: 80px 0;
+    color: #4D4D4D;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Our Destinations-End */
+
+/*Video*/
+.video {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/tests/hero_bg_2_short.jpg");
+}
+
+.video-shadow {
+    width: 100%;
+    height: 600px;
+    padding: 200px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.video-text-cont {
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+}
+
+.play-btn{
+    font-size: 80px;
+    transition:0.3s;
+}
+
+.play-btn:hover{
+    font-size:100px;
+}
+/*Video-End*/
+/* Services */
+.services {
+    width: 100%;
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.service {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px;
+    width: 350px;
+}
+
+.service div:first-child {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
+.service div:last-child {
+    display: inline-block;
+    vertical-align: top;
+    width: 290px;
+}
+
+.service-icon {
+    font-size: 45px;
+    color: #ef6c57;
+    margin: 0;
+    padding: 0;
+}
+
+.service p, .service a {
+    font-size: 16px;
+}
+
+.service a {
+    color: #e43216;
+    transition:0.3s;
+}
+.service a:hover {
+    color: #c3321c;
+}
+/* Services - End */
+
+
+/* Blog */
+.blog {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.mini-blog {
+    display: inline-block;
+    vertical-align: top;
+    width: 540px;
+    margin: 40px 10px;
+}
+
+.mini-blog img {
+    width: 540px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+.mini-blog a {
+    font-size: 20px;
+    color: #ef6c57;
+    transition:0.3s;
+}
+
+.mini-blog a:hover {
+    color: #c3321c;
+}
+
+.mini-blog-p {
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+.author-p {
+    font-size: 14px;
+    color: #B3B3B3;
+    margin-bottom: 20px;
+}
+
+.author-p span a {
+    font-size: 14px;
+}
+
+.home-blog-btn {
+    padding: 40px 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*Blog - End*/
+
+
+
+/**/
+
+
+.Tours {
+    width: 100%;
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+
+
+/*Join*/
+.join {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.join h1 {
+    margin-bottom: 40px;
+}
+/*Join-End*/
+
+

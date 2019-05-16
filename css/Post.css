@@ -1,0 +1,100 @@
+.post-section{
+	padding: 80px 20px;
+	background-color: #adabab;
+	/*background:url("../images/tests/tst_img.jpg");*/
+	
+}
+/*div */
+.post{
+	padding:30px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 25px;
+}
+.post h1{
+	color:purple;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.post-img{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 60px;
+}
+.post-img img{
+	width: 100%;
+	
+	border-radius: 30px;
+}
+.post-text{
+	width: 80%;
+	margin: auto;
+}
+.post-text p{
+	font-size: 20px;
+	color:#322634;
+}
+.post-text p:nth-child(2){
+	display: inline-block;
+}
+.post-text p:last-child{
+	display: inline-block;
+}
+.price-div{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.price-div p{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 15px;
+	color:red;
+}
+
+.tour-info{
+	width: 80%;
+	margin: auto;
+	padding:20px 0 ;
+}
+.tour-info table{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	background-color:rgba(239, 230, 207,0.8);
+}
+.tour-info tr{
+	width: 100%;
+}
+
+.tour-info td, .tour-info th{
+	padding:10px;
+}
+
+.tour-info  div.mini-map{
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tour-page p{
+	color:#322634 !important;
+}
+.filtration-cont{
+	width: 1140px;
+	margin: auto;
+	font-size: 16px;
+	background-color: antiquewhite;
+	border-radius: 15px;
+}
+
+.filter-input-cont{
+	display: inline-block;
+	padding: 10px 20px;
+}
+.filter-input-cont input[type="submit"]{
+	width: 80px;
+	height: 30px;;
+}
